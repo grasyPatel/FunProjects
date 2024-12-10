@@ -22,7 +22,9 @@ This repository is a hub of interactive games developed to demonstrate creativit
 ## Projects  
 
 1. **Simon Game**  
-   - A memory-based game where players replicate patterns shown by the system.  
+   - A memory-based game where players replicate patterns shown by the system.
+2. **2048 Game**  
+   - A tile-merging puzzle game where players slide tiles to combine them and reach the 2048 tile.
 
 ## Getting Started  
 
