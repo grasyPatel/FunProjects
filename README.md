@@ -25,6 +25,9 @@ This repository is a hub of interactive games developed to demonstrate creativit
    - A memory-based game where players replicate patterns shown by the system.
 2. **2048 Game**  
    - A tile-merging puzzle game where players slide tiles to combine them and reach the 2048 tile.
+3. **Stone-Paper-Scissors**
+   - A fun and interactive game where players test their luck and strategy by choosing one of three options: Stone, Paper, or Scissors.   
+     
 
 ## Getting Started  
 
