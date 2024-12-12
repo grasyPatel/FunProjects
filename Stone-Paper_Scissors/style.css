@@ -1,0 +1,57 @@
+body{
+    text-align: center;
+}
+.heading{
+    margin-top: 3rem;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 8rem;
+}
+.computer{
+    margin-left: 7rem;
+    margin-right: 7rem;
+    background-color: antiquewhite;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.box{
+    display: flex;
+    
+    margin: 1rem;
+}
+.use p{
+    font-weight: 100;
+    color: gray;
+}
+.box1{
+    background-color: rgb(107, 203, 214);
+    margin:.5rem;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+.user{
+    margin-left: 7rem;
+    margin-right: 7rem;
+    background-color: antiquewhite;
+    padding-left: 3rem;
+    padding-right: 3rem;
+
+}
+button{
+    margin-top: 6rem;
+    padding-left:2rem ;
+    padding-right: 2rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    background-color: rgb(142, 45, 45);
+    border: none;
+    border-radius: .5rem;
+    font: 1em sans-serif;
+    color: white;
+}
+button:hover{
+    background-color:  antiquewhite;;
+    color: #000;
+}
