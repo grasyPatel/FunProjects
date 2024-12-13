@@ -55,3 +55,9 @@ button:hover{
     background-color:  antiquewhite;;
     color: #000;
 }
+
+.active{
+    background-color: rgb(82, 212, 56);
+    color: #000;
+    font-weight: bold;
+}
