@@ -73,3 +73,44 @@ function updateUI(playerChoice, computerChoice, result){
     }
 
 }
+let endGame=document.querySelector("button");
+endGame.addEventListener("click", function(){
+
+    setTimeout(() => {
+        if(ps>cs){
+            counter.innerHTML=`Winner: Player with score - ${ps}`;
+        }
+        else{
+            counter.innerHTML=`Winner: Computer with score - ${cs}`;
+        }
+        
+    }, 100);
+    document.querySelector("body").style.background="rgb(107, 203, 214)";
+    setTimeout(function(){
+        document.querySelector("body").style.background="white";
+      
+
+    },1000);
+    setTimeout(() => {
+        reset();
+        
+    }, 2000);
+
+   
+   
+    
+
+});
+
+function reset(){
+    start =false;
+    counter.innerHTML="Press Any Key To Start."
+    level=0;
+    ps=0;
+    cs=0;
+    playerScore.textContent=`Points: ${ps}`;
+    ComputerScore.textContent=`Points: ${cs}`;
+    cBox.forEach(box => box.classList.remove('active'));
+    pBox.forEach(box => box.classList.remove('active'));
+
+}
