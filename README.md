@@ -26,7 +26,9 @@ This repository is a hub of interactive games developed to demonstrate creativit
 2. **2048 Game**  
    - A tile-merging puzzle game where players slide tiles to combine them and reach the 2048 tile.
 3. **Stone-Paper-Scissors**
-   - A fun and interactive game where players test their luck and strategy by choosing one of three options: Stone, Paper, or Scissors.   
+   - A fun and interactive game where players test their luck and strategy by choosing one of three options: Stone, Paper, or Scissors.
+4. **Tic-Tac-Toe**
+   - A fun and strategic game where two players take turns placing Xs and Os on a 3x3 grid, aiming to align three in a row to win.
      
 
 ## Getting Started  
