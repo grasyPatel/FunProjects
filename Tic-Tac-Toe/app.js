@@ -2,7 +2,7 @@ const cells=document.querySelectorAll(".cell");
 const playerTurnX=document.querySelector(".turn.X");
 const playerTurnY=document.querySelector(".turn.O");
 const WinnerDisplay=document.querySelector(".winner_display");
-const restartBtn=document.querySelector("restart");
+const restartBtn=document.querySelector("#restart");
 
 let board=["","","","","","","","",""];
 let currentPlayer="X";
@@ -62,11 +62,22 @@ const handleClick=(e)=>{
         updateTurn();
     }
 }
-// const restartGame=()=>{
+let restartGame=()=>{
+    board=["","","","","","","","",""];
+    currentPlayer="X";
+    isGameActive=true;
+    WinnerDisplay.textContent="";
+    for(let cell of cells){
+        cell.classList.remove("taken");
+        cell.classList.remove("colorchange");
+        cell.textContent="";
+    }
+    
 
-// }
+
+}
 
 cells.forEach(cell=> cell.addEventListener('click', handleClick));
-//restartBtn.addEventListener('click',restartGame);
+restartBtn.addEventListener('click',restartGame);
 
 updateTurn();

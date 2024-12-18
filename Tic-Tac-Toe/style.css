@@ -40,11 +40,15 @@ h1{
 
 }
 .cell{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     border: 1px solid gray;
     width: 98px;
     text-align: center;
     color: white;
-    
+  
 }
 .cell.taken{
     pointer-events: none;
